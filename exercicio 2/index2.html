@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Galeria de Artistas</title>
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <style>
+            .album-cover {
+                width: 100%;
+                height: auto;
+            }
+            .album-card {
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav
+            class="navbar col-12 navbar-expand-lg navbar-dark bg-dark bg-body-tertiary"
+            style="z-index: 999"
+        >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Another action</a
+                                    >
+                                </li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Something else here</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <h1 class="text-center my-4">Meus Cantores/Grupos Preferidos</h1>
+            <div class="row">
+                <div class="col-md-4 album-card">
+                    <div class="card">
+                        <img
+                            src="https://i.ytimg.com/vi/aRQkCVYg7VI/maxresdefault.jpg"
+                            class="card-img-top album-cover"
+                            alt="Capa do Álbum"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">M4rkim</h5>
+                            <p class="card-text">Rei das Maldições</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 album-card">
+                    <div class="card">
+                        <img
+                            src="https://i.ytimg.com/vi/6DctEuL2Pjc/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCCi_7JOAt0o1bq12QmOCTjVIe_kQ"
+                            class="card-img-top album-cover"
+                            alt="Capa do Álbum"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">M4rkim</h5>
+                            <p class="card-text">Rei dos Piratas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 album-card">
+                    <div class="card">
+                        <img
+                            src="https://i.ytimg.com/vi/Rrr5MTcMy_A/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCTSqknTcaZutc0u5stH95aS05NXg"
+                            class="card-img-top album-cover"
+                            alt="Capa do Álbum"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">M4rkim</h5>
+                            <p class="card-text">Fim da Humanidade</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
